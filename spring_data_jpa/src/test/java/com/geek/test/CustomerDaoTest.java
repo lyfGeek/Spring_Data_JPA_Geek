@@ -72,4 +72,5 @@ public class CustomerDaoTest {
         List<Customer> all = customerDao.findAll();
         all.forEach(System.out::println);
     }
+
 }
